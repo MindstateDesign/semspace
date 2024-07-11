@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "semspace"
+version = "0.1.0"
+description = ""
+authors = ["Oleksiy Levkovskyy <lex@sojourns.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+dash = "^2.16.1"
+pandas = "^2.2.2"
+plotly = "^5.21.0"
+flask-cors = "^4.0.0"
+matplotlib = "^3.8.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
